@@ -108,9 +108,10 @@ a {
    display: block;
 }
 
-img {  
-    max-width: 100%;  
-    height:fit-content;  
+img {
+    width: 100%;  
+    
+    
     }  
 
 .shell{
@@ -247,7 +248,7 @@ ul{
 
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
     
     .nav{
         float: none;
@@ -265,7 +266,33 @@ ul{
         width: 100%;
     }
 
-    
+    .newArticles__grid {
+        display: grid;
+        grid-template-areas: "auto"
+        "auto"
+        "auto"
+        "auto";
+        column-gap: 2rem;
+        row-gap: 2rem;
+        max-width: 100%;
+    }
+
+    .shell{
+        background-image: url('../assets/Apple_Logo.svg');
+        background-size: cover;
+    }
+    .iphone{
+        background-image: url('../assets/Apple_Logo.svg');
+        background-size: cover;
+    }
+    .ipad{
+        background-image: url('../assets/Apple_Logo.svg');
+        background-size: cover;
+    }
+    .mac{
+        background-image: url('../assets/Apple_Logo.svg');
+        background-size: cover;
+    }
 }
 
 
